@@ -1,0 +1,327 @@
+.contain {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+.contain>input {
+  font-size: 16px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.snkImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+/* Styling the table */
+.snkTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  text-align: left;
+}
+
+.snkTableHeader {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Styling table rows */
+.snkTable tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.mm {
+  margin-top: 50px;
+}
+
+/* Styling table cells */
+.snkTableCell {
+  padding: 10px;
+  text-align: left;
+}
+
+/* Styling the image */
+.snkImage {
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
+}
+
+/* Styling the button */
+.snkButton {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.snkButton:hover {
+  background-color: #2980b9;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  margin: 20px 0;
+}
+
+thead th {
+  background-color: #f2f2f2;
+  color: #333;
+  padding: 10px;
+  text-align: left;
+}
+
+tbody td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+
+td.pho img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+button {
+  padding: 5px 10px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:last-child {
+  background-color: #008CBA;
+}
+
+button:last-child:hover {
+  background-color: #007bb5;
+}
+
+td a {
+  text-decoration: none;
+}
+
+
+
+.back-content{
+
+}
+.wrp {
+  padding: 100px;
+}
+.backhd{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.backhd>img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.backmn>p{
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+}
+.idwrap {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #000;
+  background-color: rgb(157, 200, 237);
+  height: 220px;
+}
+
+.pho>img {
+  width: 100px;
+  height: 100px;
+}
+
+.name {
+  font-size: 12px;
+}
+
+.infof {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+
+.bar {
+  width: 270px;
+  height: 60px;
+  margin-right: 10px;
+  background-color: transparent;
+}
+
+.id {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 19px;
+}
+
+.pp {
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.info>p {
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.kii {
+  margin-top: 80px;
+}
+
+.section {
+  margin-bottom: 20px;
+
+}
+
+.form-row {
+  display: flex;
+  margin-bottom: 10px;
+  gap: 20px;
+
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  width: auto;
+  border: 2px solid #212121;
+}
+
+.section>form>button {
+  background-color: #ededed;
+  color: #000;
+
+
+}
+
+.input,
+.form-row>input {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-row>div {
+  display: flex;
+  flex-direction: column;
+}
+
+.location-input {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.location-button {
+  padding: 8px 16px;
+  background-color: #22121;
+  color: white;
+  width: 150px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button {
+  padding: 8px 16px;
+
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  margin-left: 10px;
+}
+
+.icon {
+  padding: 10px;
+  font-size: 20px;
+  background-color: #f2f2f2;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.form-row>div>input {
+  height: 44px;
+  background-color: #05060f0a;
+  border-radius: .5rem;
+  padding: 0 1rem;
+  border: 2px solid transparent;
+  font-size: 1rem;
+  transition: border-color .3s cubic-bezier(.25, .01, .25, 1) 0s, color .3s cubic-bezier(.25, .01, .25, 1) 0s, background .2s cubic-bezier(.25, .01, .25, 1) 0s;
+
+}
+
+.form-row>div>label {
+  display: block;
+  margin-bottom: .3rem;
+  font-size: .9rem;
+  font-weight: bold;
+  color: #05060f99;
+  transition: color .3s cubic-bezier(.25, .01, .25, 1) 0s;
+}
+
+.id {
+  margin-top: 50px;
+}
+
+
+.header {
+  background-color: #2596be;
+  padding: 10px;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.left {
+  border-radius: 50px;
+}
