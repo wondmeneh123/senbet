@@ -325,3 +325,7 @@ button[type="submit"] {
 .left {
   border-radius: 50px;
 }
+.search>form>input{
+  padding: 5px;
+  font-size: 16px;
+}
