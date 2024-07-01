@@ -83,7 +83,7 @@ const IDCard = () => {
                   <p><b>ክፍል: </b>{stud.age}</p>
                   <p><b>መለያ: </b>{stud.address}</p>
                   <Barcode
-                    value={`wlud.netlify.app/${stud.id}`}
+                    value={`senbet.vercel.app/${stud.id}`}
                     displayValue={false}
                     className="bar"
                     background="#9dc8ed"
